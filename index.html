@@ -1,0 +1,236 @@
+<div class="header">
+  <div class="title">
+    <h4>kin and gandhis market</h4>
+  </div>
+</div>
+<div class="body">
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $2.00
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://i.ibb.co/NxhjsHM/sext-smexy-2.pngtpixlr"/>
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          10-50 Skinned Account
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          Semi-Stacked
+        </div>
+        <div class="span">
+          NFA
+        </div>
+        <div class="span">
+          PSN Linkable
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $6.00
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://i.ibb.co/g6w9T1G/sext-smexy-3.png"/>
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          50-100 Skinned account
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          Semi-Stacked
+        </div>
+        <div class="span">
+          NFA
+        </div>
+        <div class="span">
+          XBL Linkable
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $12.00
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://i.ibb.co/rwpyyTP/sext-smexy-4.png"/>
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          100+ Skinned Account
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          Stacked
+        </div>
+        <div class="span">
+          NFA
+        </div>
+        <div class="span">
+          PSN Linkable 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+html, body {
+	 font-family: "Kanit", sans-serif;
+	 min-height: 100vh;
+	 min-width: 100vw;
+	 background: #fcfcfc;
+}
+ .header {
+	 z-index: 99999;
+	 width: 100%;
+	 height: 70px;
+	 background: white;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.091);
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: #cacaca;
+	 font-weight: 100;
+	 text-transform: uppercase;
+	 letter-spacing: 0.3em;
+}
+ .body {
+	 height: 100vh;
+	 width: 100%;
+	 padding-top: 120px;
+}
+ .container {
+	 padding-top: 20px;
+	 min-height: 100vh;
+	 display: grid;
+	 grid-auto-rows: 400px;
+	 grid-gap: 30px;
+	 grid-template-columns: repeat(3, minmax(200px, 300px));
+	 justify-content: center;
+	 align-items: stretch;
+}
+ @media screen and (max-width: 720px) {
+	 .container {
+		 grid-template-columns: 1fr;
+		 margin: 50px 30px;
+	}
+}
+ .card {
+	 position: relative;
+	 padding: 10px;
+	 background: white;
+	 display: grid;
+	 grid-template-rows: 8fr 1fr 1fr;
+	 box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.057);
+	 transition: 0.2s ease-in;
+}
+ .card .card-content {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 100%;
+}
+ .card .card-content .top-bar {
+	 width: calc(100% - 40px);
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 padding: 20px;
+}
+ .card .card-content .top-bar .float-right {
+	 float: right;
+}
+ .card .card-content .img {
+	 width: 100%;
+	 justify-content: bottom;
+	 align-content: bottom;
+	 text-align: center;
+}
+ .card .card-content .img img {
+	 max-width: 100%;
+	 max-height: 220px;
+}
+ .card .card-description {
+	 padding: 10px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 font-weight: 400;
+	 font-size: 14px;
+	 letter-spacing: 0.1em;
+	 width: calc(100%-20px);
+}
+ .card .card-description .title {
+	 text-transform: uppercase;
+	 text-align: left;
+}
+ .card .card-description .cart {
+	 float: right;
+	 cursor: pointer;
+}
+ .card .card-footer {
+	 text-transform: uppercase;
+	 padding: 0.3em;
+	 border-top: 0.5px solid #ececec;
+	 letter-spacing: 0.1em;
+	 font-size: 11px;
+	 color: white;
+	 justify-items: left;
+	 align-items: center;
+	 display: flex;
+}
+ .card .card-footer .span {
+	 margin: 5px;
+	 width: auto;
+	 background: #dedede;
+	 padding: 4px 7px;
+	 border-radius: 2px;
+	 font-weight: 100;
+	 cursor: pointer;
+}
+ .card .card-footer .span:hover {
+	 background: #aaa;
+}
+ .card:hover {
+	 transition: 0.2s ease-in;
+	 transform: translateY(-10px);
+	 box-shadow: 0px 45px 60px 0px rgba(0, 0, 0, 0.087);
+}
+ 
+
+</style>
